@@ -1,6 +1,6 @@
 # CV by Dmitrii Snitkin
 
-![My photo](me.jpg)
+![My photo](me.png)
 
 ## My name
 
