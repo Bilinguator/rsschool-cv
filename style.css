@@ -1,0 +1,100 @@
+* {
+    text-decoration: none;
+    font-family: "Calibri Light", Calibri, "Helvetica Neue", "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+html {
+    background-color: rgb(4, 1, 27);
+    height: auto;
+    padding: 5%;
+}
+body {
+    height: 100%;
+    box-shadow: 0 0 5px;
+    background-color: white;
+    padding-bottom: 5%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241,93,63);
+    flex-wrap: wrap;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.blackLink {
+    color: black;
+}
+.blackLink:hover {
+    color: white;
+}
+#nameContacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+#menuNameContacts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#photo {
+    width: 30%;
+    margin: 0 auto;
+}
+#name {
+    margin: auto;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 45px;
+    margin: 5px;
+}
+h3 a {
+    color: black;
+    font-size: 30px;
+}
+#contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#contacts div {
+    padding: 4px;
+}
+main {
+    margin: 30px;
+}
+section {
+    margin: 10px;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+footer {
+    margin: 45px;
+}
+.job {
+    margin-top: 50px;
+}
+.duty {
+    padding-left: 25px;
+}
